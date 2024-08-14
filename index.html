@@ -39,7 +39,7 @@
             const imageUpload = document.getElementById('imageUpload').files[0];
             const outputText = document.getElementById('outputText');
             const outputImage = document.getElementById('outputImage');
-
+            console.log("Clicked submit");
             const formData = new FormData();
             formData.append('image_url', imageUrl);
             if (imageUpload) {
